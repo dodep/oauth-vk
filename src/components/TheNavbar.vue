@@ -1,0 +1,38 @@
+<template>
+<div>
+  <v-app-bar app dense color="primary" class="white--text">
+    <v-app-bar-nav-icon color="white" @click="drawer = true"></v-app-bar-nav-icon>
+
+    <v-toolbar-title>Oauth VK</v-toolbar-title>
+  </v-app-bar>
+
+  <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-list nav dense >
+      <v-list-item-group
+        active-class="primary--text text--accent-4"
+      >
+        <v-list-item to="/">
+          <v-list-item-icon>
+            <v-icon>mdi-home</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>Home</v-list-item-title>
+        </v-list-item>
+
+        <v-list-item to="/profile">
+          <v-list-item-icon>
+            <v-icon>mdi-account</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>Profile</v-list-item-title>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
+  </v-navigation-drawer>
+</div>
+</template>
+<script>
+export default {
+  data: () => ({
+    drawer: false
+  })
+};
+</script>

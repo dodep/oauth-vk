@@ -1,19 +1,11 @@
-# oauth_test
+Oauth VK
 
-## Project setup
-```
-npm install
-```
+Frontend project made by Vue-cli, Vuetify
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Working example: https://dodep.club/oauth/  
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Features: 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-Oauth (VK)  
+-Display User Profile Info and 5 Friends
+
