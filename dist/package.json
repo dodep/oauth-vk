@@ -1,0 +1,10 @@
+{
+    "name": "vue-oauth-vk",
+    "version": "1.0.0",
+    "description": "Heroku App",
+    "author": "ap",
+    "private": true,
+    "scripts": {
+      "postinstall": "npm install express"
+    }
+  }

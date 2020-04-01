@@ -28,7 +28,7 @@ export default {
   actions: {
     getToken({ commit }) {
       let client_id = process.env.VUE_APP_client_id;
-      let redirect_uri = "https://dodep.club/oauth/success/";
+      let redirect_uri = "https://vue-oauth-vk.herokuapp.com/success/";
       let URI = `https://oauth.vk.com/authorize?client_id=${client_id}&display=page&redirect_uri=${redirect_uri}&scope=friends&response_type=token&v=5.103`;
       window.location = URI;
     },
