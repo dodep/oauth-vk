@@ -2,7 +2,7 @@ Oauth VK
 
 Frontend project made by Vue-cli, Vuetify
 
-Working example: https://dodep.club/oauth/  
+Working example: https://vue-oauth-vk.herokuapp.com/  
 
 Features: 
 
